@@ -18,10 +18,48 @@ header {
 header img {
     line-height: 80px;
     height: 80px;
-    vertical-align: middle;
-    
+    vertical-align: middle;  
 }
 
 
-
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* main classes */
+main {
+    background-color: lightgrey;
+
+}
+.contenitore {
+    background-color: lightgrey;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.navigazione {
+    background-color: white;
+    padding: 20px 40px;
+    margin-top: 20px;
+    
+    
+}
+.nav {
+    border-radius: 5px;
+    padding: 10px;
+}
+.task {
+    background-color: lightskyblue;
+    color: white;
+}
+.section {
+    border: 2px solid lightgrey;
+    color: lightgrey;
+}
+
+.informazioni {
+    background-color: white;
+    padding: 20px 40px;
+    margin-top: 2px;
+    
+}
