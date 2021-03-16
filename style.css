@@ -57,9 +57,91 @@ main {
     color: lightgrey;
 }
 
+/* Informazioni */
 .informazioni {
     background-color: white;
     padding: 20px 40px;
     margin-top: 2px;
-    
+}
+h2 {
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-weight: 700;
+}
+.line {
+    padding: 10px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.checkgreen::before {
+    content: "\002713 ";
+    color: lightgreen;
+    border: 1px solid lightgreen;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 2px;
+}
+.checkred::before {
+    content: "\002717 ";
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 2px;
+}
+
+.editorial::after {
+    content: "Editorial";
+    background-color: rgb(62, 140, 212);
+    border-radius: 10px;
+    color: white;
+    padding: 7px;
+    margin: 2px;
+    font-size: 10px;
+}
+.q1goals::after {
+    content: "Q1 Goal";
+    background-color: rgb(95, 13, 116);
+    border-radius: 10px;
+    color: white;
+    padding: 7px;
+    margin: 2px;
+    font-size: 10px;
+}
+.recruiting::after {
+    content: "Recruiting";
+    background-color: rgb(12, 151, 74);
+    border-radius: 10px;
+    color: white;
+    padding: 7px;
+    margin: 2px;
+    font-size: 10px;
+}
+
+.mobile::after {
+    content: "Mobile";
+    background-color: rgb(214, 115, 2);
+    border-radius: 10px;
+    color: white;
+    padding: 7px;
+    margin: 2px;
+    font-size: 10px;
+}
+.slaes::after {
+    content: "Sales";
+    background-color: rgb(86, 179, 0);
+    border-radius: 10px;
+    color: white;
+    padding: 7px;
+    margin: 2px;
+    font-size: 10px;
+}
+.website::after {
+    content: "Website";
+    background-color: rgb(158, 13, 139);
+    border-radius: 10px;
+    color: white;
+    padding: 7px;
+    margin: 2px;
+    font-size: 10px;
 }
