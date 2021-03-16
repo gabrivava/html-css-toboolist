@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Header classes */
+header {
+    border-top: 1px solid lightgrey;
+    margin: 10px;
+}
+.head {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin: 10px;
+    font-weight: bolder;
+}
+header img {
+    line-height: 80px;
+    height: 80px;
+    vertical-align: middle;
+    
+}
+
+
+
+/* main classes */
